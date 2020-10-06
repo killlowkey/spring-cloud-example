@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/eureka/
+spring:
+  application:
+    name: consumer-server
+server:
+  port: 9091
+
+ribbon:
+  eureka:
+    enabled: true
+
